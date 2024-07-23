@@ -1,9 +1,11 @@
+import styles from "@/constants/style";
 import { Text, View } from "react-native";
 
-export default function Primeiro() {
+export default function TelaPrimeiro() {
     return (
-        <View>
-            <Text></Text>
+        <View style= {styles.centralizado}>
+            <Text>Primeiro Componente</Text>
         </View>
     )
 }
+
